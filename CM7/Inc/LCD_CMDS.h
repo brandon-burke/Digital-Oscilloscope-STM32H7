@@ -1,0 +1,38 @@
+#define ILI9341_Sleep_Out			0x11
+#define ILI9341_Display_On			0x29
+
+/*Command LVL 2*/
+#define ILI9341_PWR_CTRL_1			0xC0
+#define ILI9341_PWR_CTRL_2			0xC1
+#define ILI9341_VCOM_CTRL_1			0xC5
+#define ILI9341_VCOM_CTRL_2			0xC7
+
+#define ILI9341_MAC					0x36
+#define ILI9341_PIXEL_FORMAT		0x3A
+
+#define ILI9341_FRAMERATE_CTRL_1	0xB1
+
+#define ILI9341_DISPLAY_FUNC_CTRL	0xB6
+
+#define LCD_WIDTH					320
+#define LCD_HEIGHT					240
+
+#define ILI9341_3D_GAMMA_EN			0xF2
+#define ILI9341_GAMMA_CURVE			0x26
+#define ILI9341_POS_GAMMA			0xE0
+#define ILI9341_NEG_GAMMA			0xE1
+
+#define ILI9341_COL_SET				0x2A
+#define ILI9341_PAGE_SET			0x2B
+#define ILI9341_MEM_WRITE			0x2C
+#define ILI9341_CONT_MEM_WRITE		0x3C
+
+#define ILI9341_VERT_SCROLL_ADDY	0x37
+
+#define ILI9341_PWR_A				0xCB
+#define ILI9341_PWR_B				0xCF
+#define ILI9341_PWR_SEQ				0xED
+#define ILI9341_DRIVE_TIM_A			0xE8
+#define ILI9341_DRIVE_TIM_B			0xEA
+#define ILI9341_PUMP_RATIO			0xF7
+#define ILI9341_NORMAL_DISPLAY		0x13
